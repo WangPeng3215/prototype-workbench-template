@@ -1,0 +1,39 @@
+# Dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Local instance configuration
+prototype.config.json
+.pinme.json
+.env
+.env.*
+
+# Personal prototypes: keep framework files, ignore requirement directories and pages
+src/prototypes/*
+!src/prototypes/registry.ts
+!src/prototypes/README.md
+!src/prototypes/.gitkeep
+
+# Personal shared components
+src/components/local/*
+!src/components/local/.gitkeep
+
+# Logs and editor files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

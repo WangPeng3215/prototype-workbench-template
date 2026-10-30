@@ -1,0 +1,7 @@
+{
+  "template": {
+    "repository": "https://github.com/WangPeng3215/prototype-workbench-template.git",
+    "version": "1.0.0"
+  },
+  "autoPull": false
+}

@@ -1,0 +1,9 @@
+---
+description: prototype-workbench 原型项目规则入口
+globs: ["**/*"]
+alwaysApply: true
+---
+
+本目录是独立原型项目。开始任何任务前必须读取 `AGENTS.md`、`.agents/skills/prototype-management/SKILL.md`、该 Skill 的相关 `references/`，以及目标需求的 `requirement.json` 与现有页面。
+
+以上文件是唯一规则来源，不要凭记忆或本文件替代。
